@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Нёрдс</title>
+  </head>
+  <body>
+
+<header class="main-header">
+ <nav class="main-navigation">
+     <a class="main-header-logo">
+  <ul class="brand">
+      <img src="img/index.logo.svg" width="100" height="80" alt="Логотип студии
+  Нердс">
+    <li>Покой</li>
+    <a class="main-header-logo">
+      <img src="img/index.logo.svg" width="100" height="80" alt="Логотип студии
+  Нердс">
+    <li>Наведение</li>
+     <img src="img/index.logo.svg" width="100" height="80" alt="Логотип студии
+  Нердс">
+    <li>Нажатие</li>
+  </ul>
+
+<section class="site-navigation-1">
+   <ul class="navigation-1">
+      <li>Студия</li>
+      <li>Клиенты</li>
+      <li>Магазин</li>
+      <li>Контакты</li>
+    </ul>
+     <span>Покой</span>
+   <ul class="user-navigation-1">
+      <li>Корзина</li>
+   </ul>
+     <span>Покой</span>
+     <ul class="navigation-2">
+        <li>Студия</li>
+        <li>Клиенты</li>
+        <li>Магазин</li>
+        <li>Контакты</li>
+      </ul>
+       <span>Наведение</span>
+     <ul class="user-navigation-2">
+        <li>Корзина</li>
+     </ul>
+       <span>Наведение</span>
+       <ul class="navigation-3">
+          <li>Студия</li>
+          <li>Клиенты</li>
+          <li>Магазин</li>
+          <li>Контакты</li>
+        </ul>
+         <span>Нажатие</span>
+
+       <ul class="user-navigation-3">
+          <li>Корзина</li>
+       </ul>
+         <span>Нажатие</span>
+      <ul class="navigation-4">
+            <li>Студия</li>
+            <li>Клиенты</li>
+            <li>Магазин</li>
+            <li>Контакты</li>
+       </ul>
+           <p>Активный,<br>
+           находимся<br>
+           на странице </p>
+
+        <ul class="user-navigation-4">
+            <li>Корзина</li>
+        </ul>
+           <p>Активный,<br>
+           находимся<br>
+           на странице</p>
+      </section>
+        <a class="button button know"href="submit">Узнать больше</a>
+        <span>Покой</span>
+        <a class="button button know"href="submit">Узнать больше</a>
+        <span>Наведение</span>
+        <a class="button button know"href="submit">Узнать больше</a>
+        <span>Нажатие</span>
+      </section>
+    </nav>
+  </header>
+
+      <main class="conteiner">
+      <section class="functions"
+       <h1 class="visual-hidden">Functions</h1>
+         <ul class="F-color-red">
+         <a class="button button-order"href="#">Заказать</a>
+           <li>Покой</li>
+          <a class="button button-order"href="#">Заказать</a>
+           <li>Наведение</li>
+           <a class="button button-order"href="#">Заказать</a>
+           <li>Нажатие</li>
+          <a class="button button-order"href="#">Заказать</a>
+        </ul>
+        <ul class="F-color-green">
+        <a class="button button-order"href="#">Заказать</a>
+          <li>Покой</li>
+         <a class="button button-order"href="#">Заказать</a>
+          <li>Наведение</li>
+          <a class="button button-order"href="#">Заказать</a>
+          <li>Нажатие</li>
+         <a class="button button-order"href="#">Заказать</a>
+       </ul>
+       <ul class="F-color-yellow">
+       <a class="button button-order"href="#">Заказать</a>
+         <li>Покой</li>
+        <a class="button button-order"href="#">Заказать</a>
+         <li>Наведение</li>
+         <a class="button button-order"href="#">Заказать</a>
+         <li>Нажатие</li>
+        <a class="button button-order"href="#">Заказать</a>
+      </ul>
+    </section>
+    <section class="brands-image">
+       <ul class="brand-normal">
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа htmlacademy"></li>
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа Barbershop Borodinski"></li>
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа Pink"></li>
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа Mishka"></li>
+      </ul>
+      <span>Покой</span>
+      <ul class="brand-bold">
+        <li><img.src="img/brand.jpg" width="100" height="80" alt="
+          Изображение логотипа htmlacademy"></li>
+        <li><img.src="img/brand.jpg" width="100" height="80" alt="
+          Изображение логотипа Barbershop Borodinski"></li>
+        <li><img.src="img/brand.jpg" width="100" height="80" alt="
+          Изображение логотипа Pink"></li>
+        <li><img.src="img/brand.jpg" width="100" height="80" alt="
+          Изображение логотипа Mishka"></li>
+       </ul>
+       <span>Наведение</span>
+       <ul class="light">
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа htmlacademy"></li>
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа Barbershop Borodinski"></li>
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа Pink"></li>
+         <li><img.src="img/brand.jpg" width="100" height="80" alt="
+           Изображение логотипа Mishka"></li>
+        </ul>
+        <span>Нажатие</span>
+      </secton>
+
+      <section class="social">
+        <ul сlass="normal">
+          <li><a class="social-button"href="#">В контакте</a></li>
+          <li><a class="social-button"href="#">Фейсбук</a></li>
+          <li><a class="social-button"href="#">Инстаграм</a></li>
+        </ul>
+        <span>Покой</span>
+       <ul class="bold"
+         <li><a class="social-button"href="#">В контакте</a></li>
+         <li><a class="social-button"href="#">Фейсбук</a></li>
+         <li><a class="social-button"href="#">Инстаграм</a></li>
+       </ul>
+         <span>Наведение</span>
+        <ul class="light">
+          <li><a class="social-button"href="#">В контакте</a></li>
+          <li><a class="social-button"href="#">Фейсбук</a></li>
+          <li><a class="social-button"href="#">Инстаграм</a></li>
+        </ul>
+          <span>Нажатие</span>
+      </section>
+
+      <section class="presentation">
+        <form class="presentation-form" action="https://echo.htmlacademy.ru"
+        method="post">
+          <p class="presentation-item">
+            Ваше имя:
+            <input type="text"name="name"value=""placeholder="Представьтесь,
+            пожалуйста">
+          </p>
+          <span>Покой</span>
+          <p class="presentation-item">
+            Ваше имя:
+            <input type="text"name="name"value=""placeholder="Представьтесь,
+            пожалуйста">
+          </p>
+            <span>Наведение</span>
+            <p class="presentation-item">
+              Ваше имя:
+              <input type="text"name="name"value=""placeholder="Введенный
+              текст">
+            </p>
+              <span>Фокус</span>
+              <p class="presentation-item">
+                Ваше имя:
+                <input type="text"name="name"value=""placeholder="Введенный
+                текст"
+                >
+              </p>
+              <span>Невалидное значение</span>
+            </form>
+          </section>
+          <section class="test">
+            <ul>
+              <li><a href="quiet">Покой</a></li>
+              <li><a href="steering">Наведение</a></li>
+              <li><a href="pressure">Нажатие</a></li>
+            </ul>
+          </section>
+
+          <section="show">
+            <form class="show-form" action="https://htmlacademy.ru" method=
+            "post">
+            <p class="presentation-item">
+              Покой
+              <input type="text" name="show" value="" placeholder="Показать">
+              <p class="presentation-item">
+                Наведение
+              <input type="text" name="steering" value="" placeholder="Показать">
+                <p class="presentation-item">
+                  Нажатие
+              <input type="text" name="pressure" value="" placeholder="Показать">
+            </form>
+           <p>
+            <span>Покой</span>
+            <a class="button" href="#">1</a>
+            <span>Наведение</span>
+            <a class="button" href="#">1</a>
+            <span>Нажатие</span>
+            <a class="button" href="#">1</a>
+            <span>Активный пункт</span>
+            <a class="button" href="#">1</a>
+          </p>
+        <table class="grades">
+          <tr>Покой</tr>
+            <td>по цене</td>
+            <td>по типу</td>
+            <td>по названию</td>
+          </tr>
+            <tr>Наведение</tr>
+              <td>по цене</td>
+              <td>по типу</td>
+              <td>по названию</td>
+            </tr>
+              <tr>Нажатие
+                 и активный пункт</tr>
+                <td>по цене</td>
+                <td>по типу</td>
+                <td>по названию</td>
+              </tr>
+            </table>
+        <form class="form-items" action="#" method="post">
+          <ul>
+            <li class="adaptive-normal">
+            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная<li>
+            <li class="adaptive-bold">
+            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная</li>
+            <li class="adaptive-light">
+            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная</li>
+          </ul>
+          <ul>
+            <li class="adaptive-normal">
+            <input type="radio" name="adaptive" value="Адаптивная">Адаптивная</li>
+            <li class="adaptive-bold">
+            <input type="radio" name="adaptive" value="Адаптивная">Адаптивная
+            </li>
+            <li class="adaptive-light">
+            <input type="radio" name="adaptive" value="Адаптивная">Адаптивная
+            </li>
+          </ul>
+        </form>
+      <ul>
+        <li>Покой</li>
+        <li>Наведение</li>
+        <li>Заблокирован</li>
+      </ul>
+
+    <form class="slyder" action="#" method="post">
+      <ul>
+        <li class="slyder-normal">
+          <input class="checkbox" type="checkbox" name="Слайдер" checked>Слайдер</li>
+        <li class="slyder-bold">
+          <input class="checkbox" type="checkbox" name="Слайдер" checked>Слайдер</li>
+        <li class="slyder-light">
+          <input class="checkbox" type="checkbox" name="Слайдер" checked>Слайдер</li>
+      </ul>
+      <ul>
+        <li class="slyder-normal">
+          <input class="checkbox" type="checkbox" name="Слайдер">Слайдер</li>
+        <li class="slyder-bold">
+          <input class="checkbox" type="checkbox" name="Слайдер">Слайдер</li>
+        <li class="slyder-light">
+          <input class="checkbox" type="checkbox" name="Слайдер">Слайдер</li>
+      </ul>
+    </form>
+    <ul>
+      <li>Покой</li>
+      <li>Наведение</li>
+      <li>Заблокирован</li>
+    </ul>
+
+    <section class="Landing">
+      <h2 class="visually-hidden">Примеры лендингов</h2>
+      <p>Покой</p>
+       <img src="img/Pink-landing.jpg" width="320" height="280" alt="Лендинг
+       Pink">
+       <p>Наведение<p>
+         <img src="img/Pink-landing.jpg" width="320" height="280" alt="Лендинг
+         Pink">
+         <div class="app">
+           <h3>Pink App</h3>
+           <p>Продуктовый лендинг<br>
+             приложения для iOS и Android</p>
+             <p class="product-price">
+               <a class="button-app" href="#">9900</a>
+             </p>
+          </div>
+        <ul>
+          <li class="price-light"><a class="button-light" href="#">9900</a>
+          <li class="price-normal"><a class="button-normal" href="#">9900</a>
+          <li class="price-bold"><a class="button-bold" href="#">9900</a>
+        </ul>
+        <ul>
+          <li>Покой</li>
+          <li>Наведение</li>
+          <li>Нажатие</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
