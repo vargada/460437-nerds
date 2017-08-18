@@ -1,0 +1,23 @@
+body {
+  font-size: 10px;
+  line-height: normal;
+  color: inherit;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 15px;
+  line-height: normal;
+  color: inherit;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+h2{
+  font-size: 15px;
+  line-height: normal;
+  color: inherit;
+  font-weight: bold;
+  font-family: sans-serif;
+}
