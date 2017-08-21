@@ -179,28 +179,23 @@
         <form class="presentation-form" action="https://echo.htmlacademy.ru"
         method="post">
           <p class="presentation-item">
-            Ваше имя:
-            <input type="text"name="name"value=""placeholder="Представьтесь,
-            пожалуйста">
-          </p>
+          <label for="presentation-name">Ваше имя:</label>
+            <input id="presentation-name" type="text" name="name"value="" placeholder="Представьтесь, пожалуйста">
+            </p>
           <span>Покой</span>
           <p class="presentation-item">
-            Ваше имя:
-            <input type="text"name="name"value=""placeholder="Представьтесь,
-            пожалуйста">
+            <label for="presentation-name">Ваше имя:</label>
+              <input id="presentation-name" type="text" name="name"value="" placeholder="Представьтесь, пожалуйста">
           </p>
             <span>Наведение</span>
             <p class="presentation-item">
-              Ваше имя:
-              <input type="text"name="name"value=""placeholder="Введенный
-              текст">
+            <label for="presentation-name">Ваше имя:</label>
+              <input id="presentation-name=" type="text" name="name" value="" placeholder ="Введенный текст">
             </p>
               <span>Фокус</span>
               <p class="presentation-item">
-                Ваше имя:
-                <input type="text"name="name"value=""placeholder="Введенный
-                текст"
-                >
+                <label for="presentation-name">Ваше имя:</label>
+                  <input id="presentation-name=" type="text" name="name" value="" placeholder ="Введенный текст">
               </p>
               <span>Невалидное значение</span>
             </form>
@@ -257,9 +252,11 @@
         <form class="form-items" action="#" method="post">
           <ul>
             <li class="adaptive-normal">
-            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная<li>
+              <label class="radio">Адаптивная</label>
+            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная</li></label>
             <li class="adaptive-bold">
-            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная</li>
+              <label>
+            <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная<label></li>
             <li class="adaptive-light">
             <input type="radio" name="adaptive" value="Adaptive" checked>Адаптивная</li>
           </ul>
