@@ -21,3 +21,67 @@ h2{
   font-weight: bold;
   font-family: sans-serif;
 }
+
+.main-navigation {
+     font-size: 16px;
+     line-height: 20px;
+     color: #ffffff;
+
+     background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+        list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a{
+      color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+       background-color: #242424;
+}
+
+.features-list {
+     list-style: none;
+}
+
+.feature-item {
+      text-align: center;
+}
+
+.feature-item h3 {
+      font-size: 30px;
+      line-height: 42px;
+}
+
+.index-columns {
+     color: #000000;
+
+     background-color: #f8f5f2;
+     background-image: url("img/pattern-light.jpg");
+     background-repeat: repeat;
+}
+
+.index-columns h2 {
+       font-size: 30px;
+       line-height: 42px;
+}
+
+.news-list {
+     list-style: none;
+}
+
+.news-item {
+     text-transform: none;
+}
+
+.gallery-content {
+       background-color: #cccccc;
+       border: 7px solid #ffffff;
+}
