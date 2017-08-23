@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 <img src="img/logo.png" width="100" height="50" alt="Нёрдс">
-
-  </head>
-  <body>
+</head>
+  <body class="inner-page">
 
     <header class="main-header">
       <nav class="main-navigation">
@@ -37,12 +38,13 @@
         </div>
       </section>
 
+   <div class="index-column">
     <section class="netting">
         <h2>Сетка:</h2>
         <ul>
-          <li>Адаптивная</li>
-          <li>Фиксированная</li>
-          <li>Резиновая</li>
+          <li><a class="button-adopt" href="adoptive">Адаптивная</a></li>
+          <li><a class="button-fix" href="fixed">Фиксированная</a></li>
+          <li><a class="button-rubber" href="rubbered">Резиновая</a></li>
         </ul>
     </section>
 
@@ -57,17 +59,20 @@
       </ul>
       <a class="button-features"href="features veb">Показать</a>
     </section>
+  </div>
 
     <section class="sorting">
         <h2>Cортировать:</h2>
-      <ul class="item-navigation">
+    <ul class="item-navigation">
         <li class="item-navigation-current"><a href="price.html">по цене</a>
         </li>
-        <li><a href="type.html">по типу</a></li>
-        <li><a href="name.html">по названию</a></li>
-     </ul>
+        <li><a class="item-navigation" href="type.html">по типу</a></li>
+        <li><a class="item-navigtion" href="name.html">по названию</a></li>
+    </ul>
+
+    <div class="veb-product">
        <h3 class="visual-hidden">Выбор сайтов</h3>
-      <ul class="veb-site">
+    <ul class="veb-site">
         <li><a href="#"><img src="img/sedona.jpg"width="350"height="268"alt="Изображение "Изображение веб-сайта "Sedona">Sedona</a></li>
 
         <li><a href="#"><img.src="img/beard.jpg" width="350"height="268"alt="Изображние веб-сайта "beard"> Borodinski</a></li>
@@ -81,7 +86,8 @@
         <li><a href="#"><img src="img/kvast.jpg" width="350" height="268"
           alt="Kvast">Кваст</a></li>
       </ul>
-    </section>
+    </div>
+  </section>
     <section class="pagination">
       <ul class=pagination-list>
         <li class="pagination-item"><a href="#">1</a></li>
