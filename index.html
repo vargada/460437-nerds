@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/outline.css" rel="stylesheet">
 <img src="img/logo.png" width="100" height="50" alt="Нёрдс">
 </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class="main-header-logo">
+        <a class="main-header-logo"></a>
+        <div class="main-navigation-wrapper">
+          <div class="container">
           <img src="img/index-logo.svg"width="220"height="170"alt="Логотип
           студии nerd's">
         </a>
@@ -24,10 +27,12 @@
         <ul class="user-navigation">
           <li><a class="login-link">Корзина</li>
         </ul>
+      </div>
+      </div>
       </nav>
     </header>
 
-    <main class="conteiner">
+    <main class="container">
       <h1 class="visually-hidden">Веб-студия Nerd's</h1>
        <h2>Долго, дорого, скрупулезно.</h2>
          <p>Математически выверенный дизайн<br>
@@ -83,13 +88,14 @@
       <img src="img/index-logo.svg"width="360"height="220"alt="Логотип студии
       nerd's">
 
+    <div class="container-wrapper-1">
       <h2>Мы маленькая, но гордая<br>
         но гордая дизайн-студия из Краснодара</h2>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический
           расчет<br>
           превыше креатива. Работаем не покладая рук, как роботы.,/p>
-          <ul class="orders">
-            <li class="order-list">
+          <ul class="order-list">
+            <li class="order">
               <h3>Выполняем заказы на разработку:</h3>
               <li>Веб-сайтов любой сложности</li>
               <li>Мобильных приложений для iOS и Android</li>
@@ -111,6 +117,9 @@
               <td>Минимальная предоплата</td>
             </tr>
           </table>
+        </div>
+
+        <div class="container-wrapper-2"
         <section>
          <ul class="examples">
            <li class="example-brand">
@@ -122,6 +131,7 @@
            </li>
          </ul>
        </section>
+     </div>
        </section>
 
        <section class="contacts">
@@ -140,7 +150,10 @@
         </section>
       </main>
 
+      <section class=""
+
       <footer class="main-footer">
+        <div class="container">
         <div class="footer-social">
           <h1>Давайе дружить!<h1>
             <p>Скидка 10% для друзей из социальных сетей.</p>
@@ -150,9 +163,29 @@
               <li><a class="social-button"href="#">Инстаграм</a></li>
             </ul>
           </div>
+          </div>
         </footer>
 
+        <section class="modal modal-info">
+          <h2>Напишите нам</h2>
+          <p>Ваше имя:</p>
+    <form class="info-form" action="https://echo.htmlacademy.ru" method="post">
+<label class="visually-hidden" for="name-user">Представьтесь, пожалуйста</label>
+  <input class="info-name-user" id="name-user" type="text" name="name"
+   placeholder="Представьтесь,пожaлуйста">
+           <p>Текст письма:</p>
+  <label class="visually-hidden" for="text-letter">В свободной форме</label>
+   <input class="info-text-letter" id="text-letter" type="text" name="text"
+    placeholder="Всвободной форме">
+            <p>Ваш e-mail:</p>
+  <label class="visually-hidden" for="e-mail-user">Для отправки ответа</label>
+    <input class="info-e-mail-user" id="e-mail-user" type="text" name="e-mail"
+     placeholder="Для отправки ответа">
+           <button class="button" type="submit">Отправить</button>
+        </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+      <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
   </body>
 </html>

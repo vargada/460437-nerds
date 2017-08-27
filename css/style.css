@@ -121,7 +121,7 @@ a {
      line-height: 24px;
 }
 
-.order-list {
+.order {
       color: #9b9fa1;
 
       background-color: #ffffff;
@@ -373,4 +373,296 @@ index-column {
 
 .social-button {
       color: e1e1e1;
+}
+
+
+
+
+
+
+/*-----Сеточные стили-----*/
+
+html,
+body {
+min-width: 1122px;
+min-height: 150px;
+}
+
+body {
+  /* Временно для сетки */
+background-size: 1372px auto;
+background-repeat: no-repeat;
+}
+
+.container {
+     width: 1200px;
+     margin: 0 auto;
+     padding: 0 20px;
+}
+
+.main-header {
+     margin-bottom: 75px;
+
+     /* Временно для сетки */
+     min-height: 123px;
+}
+
+.inner-page .main-header {
+      margin-bottom: 70px;
+
+      background-color: #ffffff;
+
+      /* Временно для сетки */
+      min-height: 72px;
+      background-color: transparent;
+
+}
+
+.main-navigation {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     /* Временно для сетки */
+
+     min-height: 123px;
+     background-color: transparent;
+}
+
+.inner-page .main-navigation {
+     align-items: flex-start;
+     flex-direction: row;
+
+  /* Временно для сетки */
+    min-height: 35px;
+
+}
+
+.main-header-logo {
+     order: 2;
+     width: 160px;
+     height: 70px;
+
+      /* Временно для сетки */
+    /*  display: block; */
+}
+
+.inner-page .main-header-logo {
+      order: 0;
+      width: 160px;
+      height: 70px;
+      padding: 40px 20px;
+}
+
+.main-navigation-wrapper {
+    width: 100%;
+    margin-bottom: 32px;
+
+    background-color: #939393;
+
+     /* Временно для сетки */
+     min-height: 70px;
+     background-color: transparent;
+}
+
+.main-navigation-wrapper .container {
+     display: flex;
+     justify-content: space-between;
+}
+
+.site-navigation {
+    width: 600px;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+     /* Временно для сетки */
+     min-height: 70px;
+}
+
+.user-navigation {
+     width: 180px;
+     margin: 0;
+     padding: 0;
+
+     list-style: none;
+
+      /* Временно для сетки */
+      min-height: 70px;
+}
+
+.inner-page .user-navigation {
+      margin-left: auto;
+}
+
+.inner-page .container-wrapper-3 {
+       display: flex;
+       justify-content: space-between;
+       width: 1160px;
+       margin: 0;
+       padding: 0 20px;
+
+       list-style: none;
+}
+
+.price {
+     width: 260px;
+     margin: 0;
+     padding: 0 20px;
+
+  /* Временно для сетки */
+      min-height: 132px;
+}
+
+.netting {
+     width: 160px;
+     margin: 0;
+     padding: 0 20px;
+
+     /* Временно для сетки */
+     min-height: 139px;
+}
+
+.features {
+  width: 180px;
+  margin: 0;
+  padding: 0 20px;
+
+  /* Временно для сетки */
+  min-height: 220px;
+}
+
+.sorting {
+  width: 360px;
+  margin: 0;
+  padding: 0 20px;
+
+  /* Временно для сетки */
+  min-height: 1994px;
+}
+
+.veb-product {
+  width: 360px;
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0 20px;
+
+  /* Временно для сетки */
+  min-height: 1994px;
+}
+
+.pagination-list {
+     padding: 0;
+     margin: 0;
+
+     list-style: none;
+
+    /* Временно для сетки */
+    min-height: 50px;
+}
+
+.services-list {
+      display:flex;
+      justify-content: space-between;
+     margin: 0;
+     padding: 0;
+
+     list-style: none;
+
+    /* Временно для сетки */
+    min-height: 146px;
+}
+
+.services-item {
+      width: 300px;
+
+      /* Временно для сетки */
+      min-height: 146x;
+}
+
+.conteiner-wrapper-1 {
+      display: flex;
+      justify-content: space-between;
+      width: 600px;
+      margin: 0;
+      padding: 0 20px;
+
+      /* Временно для сетки */
+      min-height: 370px;
+}
+
+.order {
+     width: 430px;
+     margin: 0;
+     padding: 0;
+
+     /* Временно для сетки */
+     min-height: 162px;
+}
+
+.quality-item {
+     width: 360px;
+     margin: 0;
+     padding: 0 20px;
+
+     /* Временно для сетки */
+     min-height: 162px;
+}
+
+.examples {
+      display: flex;
+      justify-content: space-between;
+      width: 1160px;
+      margin: 0;
+      padding: 0 31px;
+
+      /* Временно для сетки */
+      min-height: 92px;
+}
+
+.examples-brand {
+      width: 205px;
+      margin: 0;
+      padding: 0;
+
+      /* Временно для сетки */
+      min-height: 92px;
+}
+
+.main-footer {
+
+/* Временно для сетки */
+    background: none;
+    min-height: 218px;
+}
+
+.inner-page .main-footer {
+     margin-top: 45px;
+}
+
+.main-footer .container {
+     display: flex;
+}
+
+.footer-social {
+     width: 280px;
+     margin: 0;
+     margin-left: 140px;
+    padding: 68px; 0;
+     /* Временно для сетки */
+     min-height: 86px;
+
+}
+
+/*------Сеточные стили-----*/
+body {
+    min-width: 1200px;
+    min-height: 1100px;
+}
+
+.inner-page {
+    /* Временно для сетки */
+    background-image: url("img/nerds-shop.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
 }
